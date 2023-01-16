@@ -5,9 +5,9 @@
 }
 
 :root{
-    --Devonslargetext: #52796f;
-    --Devonssmalltext: #84A98C;
-    --Devonsdarkbackground: #201e1e;
+    --Largetext:#52796f;
+    --Smalltext:#84A98C;
+    --Darkbackground:#201e1e;
 }
 /*--Body--*/
 body{
@@ -21,7 +21,7 @@ body{
 
 /*--Header--*/
 header{
-    background-color: var(--Devonsdarkbackground);
+    background-color: var(--Darkbackground);
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: fixed;
@@ -32,7 +32,7 @@ header{
 header h1{
     font-size:60px;
     width:310px;
-    color: var(--Devonslargetext);
+    color: var(--Largetext);
 
 
 
@@ -52,7 +52,7 @@ nav {
 
 nav a{
     text-decoration: none;
-    color: var(--Devonssmalltext);
+    color: var(--Smalltext);
     margin: 16px;
     display: inline-block;
     margin-bottom: 20px;
@@ -102,7 +102,7 @@ secton{
     padding-left: 20px;
     padding-top: 10px;
     color:#52796F;
-    background-color: var(--Devonsdarkbackground);
+    background-color: var(--Darkbackground);
 
 }
 
@@ -124,11 +124,11 @@ secton{
     padding:50px;
     width: 100%;
     margin-bottom: 2px;
-    background-color: var(--Devonsdarkbackground);
+    background-color: var(--Darkbackground);
     border-left-color: #52796F;
     border-left-style: solid;
     border-bottom-style: solid;
-    border-bottom-color: var(--Devonslargetext);
+    border-bottom-color: var(--Largetext);
    
 }
 
@@ -140,7 +140,7 @@ secton{
     margin-top:50px;
     line-height: 1.5;
     width: 100%;
-    background-color:var(--Devonsdarkbackground);
+    background-color:var(--Darkbackground);
     color: var(--Smalltext);
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -158,8 +158,8 @@ secton{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     margin-top: 0px;
-    background-color:var(--Devonsdarkbackground);
-    color: var(--Devonslargetext);
+    background-color:var(--Darkbackground);
+    color: var(--Largetext);
 }
 
 figure{
@@ -172,7 +172,7 @@ figure{
 .imgprj1 {
     margin: 20px;
     float: left;
-    border-style: thick double var(--Devonslargetext);
+    border-style: thick double var(--Largetext);
 }
 
 .imgprj2{
