@@ -1,12 +1,246 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.title{
+:root{
+    --Largetext:#52796f;
+    --Smalltext:#84A98C;
+    --Darkbackground:#201e1e;
+}
+/*--Body--*/
+body{
+    background-image: url(./images/pexels-pixabay-301717.jpg) ;
+    line-height: 1;
+    background-size: cover;
+    background-blend-mode:normal;
+    margin: 0;
+    
+}
 
-    background-color: beige;
-    text-align: right;
+/*--Header--*/
+header{
+    background-color: var(--Darkbackground);
+    padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #52796F;
+    position: fixed;
+    width: 100%;
+    
+}
 
+header h1{
+    font-size:60px;
+    width:310px;
+
+
+
+}
+
+/*--Navigation--*/
+nav {
+    
+    display: inline;
+    float: right;
+    font-size: 28px;
+    text-align: right;
+    
+
+
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--Smalltext);
+    margin: 16px;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}    
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mountainimage{
+    width:100%;
+    display:flex;
+    height: 800px;
+    background-size:contain;
+    flex: 1;
+}
+
+/* About Me Section */
+
+secton{
+    flex: 1;
+}
+
+
+
+.aboutmetitle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 6px;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -2px;
+
+}
+
+.aboutheader {
+    width: 320px;
+    margin-bottom: 2px;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    color:#52796F;
+    background-color: var(--Darkbackground);
+
+}
+
+.aboutheader img{
+    width:262px;
+    border-top-style: solid;
+    border-top-color: #52796F;
+    border-bottom-color: #52796F;
+    border-bottom-style: solid;
+    margin-left: -19px;
+    margin-bottom: -3px;
+
+    
+    
+}
+
+.aboutcontent{
+
+    padding:50px;
+    width: 100%;
+    margin-bottom: 2px;
+    background-color: var(--Darkbackground);
+    border-left-color: #52796F;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-bottom-color: var(--Largetext);
+   
+}
+
+.aboutcontent p{
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:50px;
+    line-height: 1.5;
+    width: 100%;
+    background-color:var(--Darkbackground);
+    color: var(--Smalltext);
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Projects Section */
+.projects-header1{
+    width: 100%;
+    height: 2px;
+}
+
+.projectstitle{
+    width: 100%;
+    height: 65px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    background-color:var(--Darkbackground);
+    color: var(--Largetext);
+}
+
+figure{
+    width: 100%;
+    height: 580px;
+    display: inline;
+    flex-direction: column;
+}
+
+.imgprj1 {
+    margin: 20px;
+    float: left;
+    border-style: thick double var(--Largetext);
+}
+
+.imgprj2{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px ;
+    
+
+}
+
+.imgprj3{
+    margin:20px;
+    float: right;
+
+}
+
+footer{
+   background-color: var(--Darkbackground);
+   clear: both; 
+   width: 100%;
+   height: 300px;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.contactmetitle{
+    text-align: center;
+    color: var(--Largetext);
+    border-bottom-style: solid;
+    border-bottom-color: var(--Largetext);
+    width: 100%;
+    height: 65px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.contactlist{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--Smalltext);
+    font-size: 28px;
+    display:inline-flex;
+    margin-left: 30%;
+    margin-top: 4%;
+  }
+
+.phonenumber,
+.linkedin,
+.email{
+   margin-top: 25px;
+   text-decoration: none;
+}
+
+.phonenumber{
+    margin-right: 60px;
+    margin-left: -115px;
+}
+
+.email{
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 1920px){
+main,
+nav,
+header,
+footer{
+    flex-direction: column;
+ }
 }
