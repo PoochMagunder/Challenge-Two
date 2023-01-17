@@ -11,11 +11,14 @@
 }
 /*--Body--*/
 body{
+    flex: 1;
     background-image: url(./images/pexels-pixabay-301717.jpg) ;
     line-height: 1;
     background-size: cover;
-    background-blend-mode:normal;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -60,6 +63,7 @@ nav a{
 }    
 
 main{
+    padding-bottom: 2.5rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -74,17 +78,12 @@ main{
 
 /* About Me Section */
 
-secton{
-    flex: 1;
-}
-
-
-
 .aboutmetitle{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 6px;
     font-size: 50px;
+    color: var(--Largetext);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -101,18 +100,17 @@ secton{
     margin-top: 0;
     padding-left: 20px;
     padding-top: 10px;
-    color:#52796F;
     background-color: var(--Darkbackground);
 
 }
 
 .aboutheader img{
-    width:262px;
+    width:100%;
     border-top-style: solid;
     border-top-color: #52796F;
     border-bottom-color: #52796F;
     border-bottom-style: solid;
-    margin-left: -19px;
+    margin-left: 0;
     margin-bottom: -3px;
 
     
@@ -146,6 +144,11 @@ secton{
 }
 
 /* Projects Section */
+section.projects{
+   width: 100%;
+    max-height: 100%;
+}
+
 .projects-header1{
     width: 100%;
     height: 2px;
@@ -163,41 +166,31 @@ secton{
 }
 
 figure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
-    height: 580px;
-    display: inline;
-    flex-direction: column;
+    height: 100vh;
+    margin-top: 50px;
 }
 
-.imgprj1 {
-    margin: 20px;
-    float: left;
-    border-style: thick double var(--Largetext);
-}
-
-.imgprj2{
-    
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 300px ;
-    
-
-}
-
-.imgprj3{
-    margin:20px;
-    float: right;
-
+.imgprj1,
+.imgprj2,
+.imgprj3 {
+    border: var(--Darkbackground);
+    border-style: groove;
 }
 
 footer{
    background-color: var(--Darkbackground);
-   clear: both; 
+   margin-top: 800px;
+   bottom: 0;
    width: 100%;
-   height: 300px;
-   flex-wrap: wrap;
-   flex-direction: column;
+   height: 15rem;
+   position: relative;
+
 }
+
 
 .contactmetitle{
     text-align: center;
@@ -214,33 +207,26 @@ footer{
 .contactlist{
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--Smalltext);
+    display: flex;
+    justify-content: space-around;
     font-size: 28px;
-    display:inline-flex;
-    margin-left: 30%;
-    margin-top: 4%;
+ 
   }
 
 .phonenumber,
 .linkedin,
 .email{
-   margin-top: 25px;
+   margin-top: 40px;
    text-decoration: none;
 }
 
-.phonenumber{
-    margin-right: 60px;
-    margin-left: -115px;
-}
+@media screen and (max-width: 992px) {
+    
+    header,
+    nav,
+    main,
+    footer {
+        flex-direction: column;
 
-.email{
-    margin-left: 60px;
-}
-
-@media screen and (max-width: 1920px){
-main,
-nav,
-header,
-footer{
-    flex-direction: column;
- }
+    }
 }
