@@ -13,7 +13,7 @@ Click the link provided to be taken directly to my site:
 https://poochmagunder.github.io/Portfolio-Website/
 
 Here is a screenshot of what to expect!
-<img src="Devon Eadie's Portfolio.png">
+![alt text](I:\Bootcamp\workfolder\Portfolio-Website\assets\images)
 
 ## Usage
 
