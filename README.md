@@ -2,39 +2,23 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This website is where i have cataloged my projects along my developer journey. The motivation behind its design is my home of Vancouver Island. I wanted to encompass the mountains and woods that cover the island itself. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+I have learnt many things while creating this website such as Advanced CSS and HTML. But i have also learnt of many websites and resources that can help me in the future as well. 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Click the link provided to be taken directly to my site:
+
+https://poochmagunder.github.io/Portfolio-Website/
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+This website is for any future employer or colleague who wishes to view my skills and potential in their jobsite. Feel free to view the many projects i have linked in the "My Project" section of the site. As well as contact me at any of the contacts i provided in the "Contact Me" section.
 
 ## Credits
+
+Thanks to all the amazing artists whos photos i used!
 
 Photo by shy sol: https://www.pexels.com/photo/grayscale-photo-of-cliff-and-pine-trees-573863/
 Photo by FWStudio: https://www.pexels.com/photo/brown-wooden-surface-139306/
@@ -48,4 +32,4 @@ Photo by Pixabay: https://www.pexels.com/photo/books-in-black-wooden-book-shelf-
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+Refer to the LICENSE in the repo.
