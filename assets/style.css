@@ -255,7 +255,7 @@ figure{
     height: 18.6rem;
 }
 
-
+/* Footer Section */
 footer{
    background-color: var(--Darkbackground);
    margin-top: 800px;
@@ -297,6 +297,8 @@ footer{
    text-decoration: none;
 }
 
+
+/* Media Query Section */
 @media screen and (max-width:992px){
     .about{
         flex-direction: row;
