@@ -13,7 +13,7 @@ Click the link provided to be taken directly to my site:
 https://poochmagunder.github.io/Portfolio-Website/
 
 Here is a screenshot of what to expect!
-![alt text](I:\Bootcamp\workfolder\Portfolio-Website\assets\images/Devon Eadie's Portfolio.png)
+![Alt text](relative/path/to/Devon Eadie's Portfolio.png?raw=true "Screenshot")
 
 ## Usage
 
