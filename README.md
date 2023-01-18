@@ -12,9 +12,6 @@ Click the link provided to be taken directly to my site:
 
 https://poochmagunder.github.io/Portfolio-Website/
 
-Here is a screenshot of what to expect!
-![Alt text](relative/path/to/Devon Eadie's Portfolio.png?raw=true "Screenshot")
-
 ## Usage
 
 This website is for any future employer or colleague who wishes to view my skills and potential in their jobsite. Feel free to view the many projects i have linked in the "My Project" section of the site. As well as contact me at any of the contacts i provided in the "Contact Me" section.
